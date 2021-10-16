@@ -59,7 +59,7 @@ class PlaceDetailScreen extends StatelessWidget {
                 );
               },
             ), 
-            LottieBuilder.network("https://assets10.lottiefiles.com/datafiles/1cJTT4DJk3R2MV9/data.json")
+            LottieBuilder.network("https://assets10.lottiefiles.com/packages/lf20_uvlbwuxv.json")
           ],
         ),
       ),
