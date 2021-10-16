@@ -41,7 +41,7 @@ class _PlacesListScreenState extends State<PlacesListScreen> {
             : Consumer<GreatPlaces>(
                 child: Center(
                   child: Lottie.network(
-                      "https://assets9.lottiefiles.com/packages/lf20_fclga8fl.json"),
+                      "https://assets10.lottiefiles.com/packages/lf20_ob2l65uz.json"),
                 ),
                 builder: (ctx, greatPlaces, childText) => greatPlaces
                             .items.length <=

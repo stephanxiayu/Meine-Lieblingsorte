@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:meine_lieblingsorte/provider/great_places.dart';
 import 'package:meine_lieblingsorte/sreens/map_screen.dart';
 
@@ -57,7 +58,8 @@ class PlaceDetailScreen extends StatelessWidget {
                   ),
                 );
               },
-            ), SizedBox(height: 30),
+            ), 
+            LottieBuilder.network("https://assets10.lottiefiles.com/datafiles/1cJTT4DJk3R2MV9/data.json")
           ],
         ),
       ),
